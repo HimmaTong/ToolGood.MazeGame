@@ -17,6 +17,9 @@ namespace ToolGood.MachineLearning
     /// 当运行多次后qvalues与qvalues2会相等。
     /// 作者：ToolGood
     /// 时间：2017年3月5日14:12:28
+    /// ----------------------
+    /// 测试证明还是QLearning速度快
+    /// 
     /// </summary>
     public class DoubleQLearning
     {

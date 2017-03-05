@@ -84,6 +84,8 @@ namespace ToolGood.MachineLearning
         /// 
         public int ChooseAction(double[] actionEstimates)
         {
+            if (actionEstimates.Length == 1) return 0;
+
             // 动作计数 actions count
             int actionsCount = actionEstimates.Length;
 
